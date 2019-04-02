@@ -12,7 +12,7 @@ OsGeo GDAL/OGR Python package is needed to use the provided scripts. You can use
 
 The (in their current form) are intended to use in command line. You can create a .bat/ .sh file with the arguments You want to run the scripts with.
 
-#Continuous H/W ratio calculation:
+# Continuous H/W ratio calculation:
 
 Calculates H/W value for every pixel of the input DSM in a direction of 360 degrees according to the arguments given. Can have a long processing time depending on the size of the input DSM. Returns a raster file as an output.
 
@@ -26,7 +26,7 @@ Use the continuousHWcalculation.py with the following arguments:
 - Name of the output file
 
 
-#Vector based H/W calculation:
+# Vector based H/W calculation:
 
 Uses vector data of roads to find possible canyons in the DSM. If canyon is found H/W ratio is calculated perpendicular to road direction
 
