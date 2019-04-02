@@ -14,7 +14,7 @@ The (in their current form) are intended to use in command line. You can create 
 
 # Continuous H/W ratio calculation:
 
-Calculates H/W value for every pixel of the input DSM in a direction of 360 degrees according to the arguments given. Can have a long processing time depending on the size of the input DSM. Returns a raster file as an output.
+Calculates H/W value for every pixel of the input DSM in a direction of 360 degrees according to the arguments given. Can have a long processing time depending on the size of the input DSM. Returns a raster file (GeoTIFF) as an output.
 
 Use the continuousHWcalculation.py with the following arguments:
 - Path to the raster DSM data
@@ -28,7 +28,7 @@ Use the continuousHWcalculation.py with the following arguments:
 
 # Vector based H/W calculation:
 
-Uses vector data of roads to find possible canyons in the DSM. If canyon is found H/W ratio is calculated perpendicular to road direction.
+Uses vector data of roads to find possible canyons in the DSM. If canyon is found H/W ratio is calculated perpendicular to road direction. Returns a vector output (GeoJSON) with locations and H/W values of the canyons.
 
 Use the vectorHWcalculation.py with the following arguments:
 
