@@ -28,7 +28,7 @@ Use the continuousHWcalculation.py with the following arguments:
 
 # Vector based H/W calculation:
 
-Uses vector data of roads to find possible canyons in the DSM. If canyon is found H/W ratio is calculated perpendicular to road direction
+Uses vector data of roads to find possible canyons in the DSM. If canyon is found H/W ratio is calculated perpendicular to road direction.
 
 Use the vectorHWcalculation.py with the following arguments:
 
